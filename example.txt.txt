@@ -1,1 +1,12 @@
 Aryan Yadav
+
+mkdir stash-demo
+cd stash-demo
+git init
+
+
+echo "print('Hello, world!')" > main.py
+git add main.py
+git commit -m "Initial commit: Add main.py"
+
+echo "print('This is a new change')" >> main.py
